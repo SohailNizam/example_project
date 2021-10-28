@@ -1,8 +1,7 @@
 here::i_am("R/barchart.R")
 data(mtcars)
 
-library(RColorBrewer)
-colors <- brewer.pal(3, "Dark2")
+colors <- c("blue", "red", "green")
 
 
 tab <- table(mtcars$cyl, mtcars$gear)
